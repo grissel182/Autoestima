@@ -1,0 +1,175 @@
+
+/*CATEGORIAS GENERALES*/
+body{
+	background-color: #F0EEEE;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/Maven_Pro/MavenPro-Regular.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: "BerkshireSwash-Regular";
+    src: url(../fonts/Berkshire_Swash/BerkshireSwash-Regular.ttf);
+   }
+*{
+    font-family: myFirstFont;
+    src: url(../fonts/Maven_Pro/MavenPro-Regular.ttf);
+}
+.txtcenter{
+	text-align: center;
+}
+.txtbco{
+	color: white;
+}
+.txtcolor{     /*---- color rosa de toda la pg----*/
+	color: #E32242;
+}
+.noline{
+	text-decoration: none;
+}
+/*Margenes y padding*/
+.mt-20{
+	margin-top: 20px;
+}
+.mb-20{
+	margin-bottom: 20px;
+}
+.ml-35{
+	margin-left: 35px;
+}
+.mr-35{
+	margin-right: 35px;
+}
+
+/*colores de txt y fondos*/
+.light-grey{
+	color: #CDCBCB;
+}
+.dark-grey{
+	color: #605E5E;
+}
+
+/*Estilos por secciones--------------------------------------------------*/
+
+/*---------------menu--------------*/
+.floatr li{
+	float: left;
+	display: inline-block;
+}
+
+.marginmenu{
+	margin-left: 20%;
+}
+li:hover{
+	color: #E32242;
+}
+/*----------slider 1-----*/
+.background{
+	background-image: url("../img/autoestima-slide.jpg");
+	height: 400px;
+	background-position: bottom;
+	background-size: cover;
+}
+.fs11{
+	font-size: 11px;
+}
+.fs35{
+	font-size: 35px;
+}
+.fs13{
+	font-size: 13px;
+}
+.frasefont{
+	font-family: "BerkshireSwash-Regular";
+}
+.pdt-100{
+	padding-top: 100px;
+}
+/*------------------iconos de pareja, amor y selflove----*/
+.m-20{
+	margin: 20px;
+}
+.m-40{
+	margin-top: 40px;
+}
+.mb40{
+	margin-bottom: 40px;
+}
+.ancho{
+	width: 100%;
+}
+.iconosfondo{
+	background-color: #D1CDCD;
+}
+.pd-20{
+	padding: 20px;
+}
+/*------------seccion descripción-----*/
+.ImgSec-2{
+	border-radius: 100%;
+	border: 1px solid grey;
+	height: 120px;
+}
+/*-------------seccion fondo oscuro, imagenes-----*/
+.bgblack{
+	background-color: #4B4949;
+}
+.bordebco{
+	border: 1px solid white;
+}
+/*------ amor*/
+.ImgSec-3{
+	border-radius: 10px;
+	border: 1px solid grey;
+	}
+	/*frase 2*/
+.bgtextura1{
+	background-image: url(../img/fondo1.jpg);
+}
+.backtxt{
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.pdb-20{
+	padding-bottom: 20px;
+}
+/*slide respeto*/
+.background2{
+	background-image: url("../img/respect.jpg");
+	height: 400px;
+	background-position: top;
+	background-size: cover;
+}
+ /*seccion valores*/
+ .bgvalor{
+	background-color: #DAD7D7;
+ }
+ .background3{
+	background-image: url("../img/valor.jpg");
+	height: 400px;
+	background-position: center;
+	background-size: cover;
+}
+
+/*footer*/
+footer{
+	background-color: #615D5D;
+}
+.icons{
+	display: inline-block;
+	position: relative;
+	margin: -20px 5px 5px 250px;
+}
+.inline{
+	display: inline-block;
+}
+.logos{
+	width: 50px;
+	margin-right: 35px;
+}
+.up{
+	position: fixed;
+	right: 40px;
+	bottom: 60px;
+	width: 40px;
+}
